@@ -1,0 +1,32 @@
+.sec1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+     /* font-family: "Alumni Sans SC", sans-serif; */
+      /* font-family: "Roboto Mono", monospace; */
+      background-color: rgb(182, 206, 206);
+}
+
+.div1 .l1 {
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+}
+.div1{
+    padding-left: 20px;
+}
+
+.div3 .l2 {
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px;
+}
+.div3 .l3{
+    font-size: 26px;
+    padding: 10px;
+}
+.div2 img{
+    width: 145px ;
+    height: 40px;
+}
