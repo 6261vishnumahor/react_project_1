@@ -3,9 +3,11 @@
     justify-content: space-between;
     padding-top: 20px;
     align-items: center;
-     /* font-family: "Alumni Sans SC", sans-serif; */
-      /* font-family: "Roboto Mono", monospace; */
-      background-color: rgb(182, 206, 206);
+    font-family: "Alumni Sans SC", sans-serif;
+    /* font-family: "Roboto Mono", monospace; */
+    background-color: rgb(182, 206, 206);
+    /* font-family: "Savate", sans-serif; */
+
 }
 
 .div1 .l1 {
@@ -13,8 +15,10 @@
     margin: 10px;
     font-size: 20px;
 }
-.div1{
+
+.div1 {
     padding-left: 20px;
+    display: flex;
 }
 
 .div3 .l2 {
@@ -22,11 +26,71 @@
     text-decoration: none;
     margin: 10px;
 }
-.div3 .l3{
+
+.div3 .l3 {
     font-size: 26px;
     padding: 10px;
 }
-.div2 img{
-    width: 145px ;
+
+.div2 img {
+    width: 145px;
     height: 40px;
+}
+
+.categories1 {
+    width: 590px;
+    position: absolute;
+    background-color: rgb(245, 243, 243);
+    justify-content: space-between;
+    font-family: "Noto Sans", sans-serif;
+    margin-left: 70px;
+    padding-left: 20px;
+
+}
+
+#var1 {
+    color: rgb(8, 8, 8);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.categories1 .var2 {
+    color: rgb(65, 64, 64);
+    text-decoration: none;
+    font-size: 13px;
+    /* font-family: "Alumni Sans SC", sans-serif; */
+
+}
+
+.categories1 div {
+    padding-top: 10px;
+   
+
+}
+.categories1 img{
+    width: 230px;
+}
+.categories2{
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(244, 241, 238);
+    width: 210px;
+    margin-left: 160px;
+    font-family: "Noto Sans", sans-serif;
+    padding: 0px 10px 20px 20px;
+
+}
+.categories2 .var3{
+    margin-top: 10px;
+ color: rgb(29, 29, 29);
+   font-size: 13px;
+   text-decoration: none;
+
+}
+.categories2 div{
+    margin-top: 15px;
+}
+.g :hover{
+    color: rgb(184, 177, 177);
+
 }
