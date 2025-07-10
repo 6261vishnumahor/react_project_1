@@ -6,9 +6,13 @@
 #v{
     border-bottom: 0.5px solid rgb(231, 216, 216);
 }
+#v2{
+    border-bottom: 1px solid rgb(231, 216, 216);
+    margin-bottom: 20px;
+}
 .v4{
     width: 300px;
-    background-color: rgb(117, 142, 142);
+    background-color: rgb(179, 187, 187);
 }
 .v4 ul .v3 a{
     text-decoration: none;
@@ -27,3 +31,27 @@
     text-decoration: none;
     color: rgb(245, 249, 249);
 }
+.v6 input{
+    width:300px;
+    height: 2px;
+    margin-bottom: 20px;
+}
+.v7{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.v7 button{
+    font-size: 8;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    padding: 5px 10px 5px 10px ;
+    color: white;
+}
+.v7:hover{
+color: rgb(143, 131, 131);
+}
+.v7 button:hover {
+    background-color: antiquewhite;
+    color: black;
+ }
